@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.brand {
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #ff477e;
+}
+.container {
+    display: flex;
+    align-items: center; /* Mengatur vertikal alignment */
+}
+.container img {
+    margin-left: 100px; /* Memberi jarak antara gambar dan teks */
+    width: 300px;
+    margin-right: 200px;
+}
+.patas{
+    margin-left: 20px;
+}
+.layanan{
+    background-color: rgb(68, 82, 74);
+}
+table{
+    margin-left: 140px;
+    width: 70%;
+    height: 200px;
+    background-color: white;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    background-color: rgb(34, 30, 23);
+    height: 50px;
+}
+.service{
+    margin-left: 20px;
+}
+.prdk{
+    margin-left: 20px;
+}
+.card{
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+.cp1{
+    padding: 10px;
+}
+.card2{
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+.cp2{
+    padding: 10px;
+}
+.card3{
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+.cp3{
+    padding: 10px;
+}
+.Hp{
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.social-icons {
+    margin: 10px 0;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #ff5722; /* Color on hover */
+}
+
+
